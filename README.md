@@ -16,5 +16,3 @@ scala test 官方文档：
 
 https://github.com/spark-in-action/scala-archetype-sparkinaction
 https://github.com/spark-in-action
-
-https://nosqlnocry.wordpress.com/2015/02/27/how-to-build-a-spark-fat-jar-in-scala-and-submit-a-job/
