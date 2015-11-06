@@ -12,7 +12,7 @@
 
 
 scala test 官方文档：
-  http://www.scalatest.org/user_guide/using_matchers
+  http://www.scalatest.org/user_guide
 
 https://github.com/spark-in-action/scala-archetype-sparkinaction
 https://github.com/spark-in-action
