@@ -1,8 +1,32 @@
 package com.iresearch.spark.specs
 
+import org.junit.runner.RunWith
+import org.scalatest.junit.JUnitRunner
+import org.specs2.mutable.Specification
+
 /**
-  * Created by hadoop on 2015/11/6.
+  * Sample specification.
+  *
+  * This specification can be executed with: scala -cp <your classpath=""> ${package}.SpecsTest
+  * Or using maven: mvn test
+  *
+  * For more information on how to write or run specifications, please visit:
+  *   http://etorreborre.github.com/specs2/guide/org.specs2.guide.Runners.html
+  *
   */
-class SimpleSpecTest {
+@RunWith(classOf[JUnitRunner])
+class SimpleSpecTest extends Specification{
+
+  "The 'Hello world' string" should {
+    "contain 11 characters" in {
+      "Hello world" must have size(11)
+    }
+    "start with 'Hello'" in {
+      "Hello world" must startWith("Hello")
+    }
+    "end with 'world'" in {
+      "Hello world" must endWith("world")
+    }
+  }
 
 }
