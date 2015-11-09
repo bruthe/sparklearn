@@ -1,12 +1,12 @@
 package com.iresearch.spark
 
 /**
-  * Created by hadoop on 2015/11/5.
+  * Created by IRSADMIN on 2015/11/6.
   */
-object SimpleApp {
+class SimpleApp {
 
   def main(args: Array[String]) {
-    print("hello world ..")
+    printf("hello world..")
   }
 
 }
